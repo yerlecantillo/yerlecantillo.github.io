@@ -1,0 +1,376 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Kite+One&display=swap');
+
+ /* Diseño de la barrade de navegacion */
+
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ .palabras{
+    display:inline-flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+    width: 100%;
+    background: black;
+    font-family: 'Kite One', sans-serif;
+    color:white;
+  }
+
+  .BTS{
+    order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:33.3%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .BTS:hover{
+    background-color:blueviolet;
+  }
+        
+  .Inicio{
+    order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:33.3%;
+    padding: 10px;
+    text-align: center;
+  }
+      
+  .Inicio:hover{
+    background-color:rgb(63, 61, 61);
+  }
+
+  .Informacion{
+    order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:33.3%;
+    padding: 10px;
+    text-align: center;
+  }
+        
+  .Informacion:hover{
+    background-color:rgb(63, 61, 61);
+  }
+
+  .Albunes{
+    order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:33.3%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .Albunes:hover{
+    background-color:rgb(63, 61, 61);
+  }
+        
+  .Logros{
+    order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:33.3%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .Logros:hover{
+    background-color:rgb(63, 61, 61);
+  }
+        
+  .Comentarios{
+    order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:33.3%;
+    padding: 10px;
+    text-align: center;
+  }
+ 
+.Comentarios:hover{
+    background-color:rgb(63, 61, 61);
+}
+
+
+/* Diseños de la imagen de inicio*/
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    height: 60vh !important;
+    background: url(./img/💜1.jpg) no-repeat center;
+    background-size: cover;
+}
+
+/* Diseños del los subtitulos de la pagina (1)*/
+.title{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Kite One', sans-serif;
+}
+
+/* Diseños de el elemento "saber mas"*/
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid blueviolet;
+    color: black;
+    text-decoration:none;
+    background: rgb(200, 152, 246) ;
+    font-family: 'Kite One', sans-serif;
+}
+
+.btn:hover{
+    background: none;
+}
+
+.btn-home{
+    display: flex;
+}
+
+.btn-home a{
+    margin: 0 10px;
+}
+
+.content{
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+}
+
+/* Diseño del color de la pagina*/
+body{
+    background-color: rgb(200, 152, 246);
+}
+
+ /* Diseños del las imagenes de informacion */
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-1{
+    width: 400px;
+    height: 300px;
+    margin-right: 40px;
+}
+
+.imagen-2{
+    width: 400px;
+    height: 300px;
+    margin-right: 40px;
+}
+
+.imagen-3{
+    width: 400px;
+    height: 300px;
+    margin-right: 40px;
+}
+
+ /* Diseño de los textos de la pagina web */
+ p{
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+  
+.contenido{
+    width: 1024px;
+}
+
+ /* Diseños de albunes y logros*/
+.contenedor, .contennedor{
+    display: flex;
+    padding:10px;
+    color: black;  
+    font-family: 'Kite One', sans-serif;
+}
+
+.text, .texto{
+    padding-left: 10px;
+    width: 1024px;
+}
+
+form {
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    width: 400px;
+    background-color: black;
+    color: white;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    /* Esquema del formulario */
+    padding: 1em;
+    margin-bottom: 40px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Tamaño y alineación uniforme */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* Tamaño uniforme del campo de texto */
+    width: 300px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    /* Alinear los campos de texto multilínea con sus etiquetas */
+    vertical-align: top;
+  
+    /* Proporcionar espacio para escribir texto */
+    height: 5em;
+  }
+  
+  .button {
+    /* Alinear los botones con los campos de texto */
+    padding-left: 90px; /* mismo tamaño que los elementos de la etiqueta */
+  }
+  
+  button {
+    /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+       entre las etiquetas y sus campos de texto */
+    margin-left: .5em;
+    
+  }
+   
+   /* Diseño de tipografia  de pie de pagina */
+  .piedepagina{
+    font-family: 'Kite One', sans-serif;
+  }
+
+
+  /* Media query para pantallas de hasta 480px */
+@media (max-width: 480px) {
+   
+    .palabras{
+        display: block;
+    }
+
+    .BTS, .Inicio, .Informacion, .Albunes, .Logros, .Comentarios,  .imagen-4, .imagen-5, .video-1, .video-2, .contenido{
+        width: 100%;
+    }
+
+    .row, .contenedor,.contennedor{
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .imagen-1, .imagen-2, .imagen-3{
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .p{
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+    
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 768px){
+    .palabras{
+    flex-wrap: wrap;
+    }
+    
+    .BTS, .Inicio, .Informacion, .Albunes, .Logros, .Comentarios{
+    width: 100%;
+    }
+
+    .contenido, .texto-1, .texto-2{
+      width: 75%;
+      }
+  
+    .imagen-4, .imagen-5, .video-1, .video-2{
+      width: 75%;
+    }
+
+    .row, .contennedor, .contenedor{
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .imagen-1, .imagen-2, .imagen-3{
+      margin-right: 20px;
+      margin-bottom: 20px;
+      width: 75%;
+    }
+    
+    p{
+      margin-left: 0px;
+    }
+
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1024px){
+      .palabras{
+      flex-wrap: wrap;
+      }
+      
+      .BTS, .Inicio, .Informacion, .Albunes, .Logros, .Comentarios{
+      width: 33.3%;
+      }
+      
+      .row, .contennedor, .contenedor{
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .imagen-1, .imagen-2, .imagen-3{
+      width: 70%;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      }
+      
+      .imagen-4, .imagen-5, .video-1, .video-2, .contenido, .texto-1, .texto-2{
+        width: 70%;
+      }
+
+      p{
+      margin-left: 0px;
+      margin-right: 0px;
+      }
+    
+      }
+
+
+
+  
